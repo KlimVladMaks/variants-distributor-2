@@ -16,3 +16,8 @@ async def is_teacher_chat_id(chat_id: int) -> bool:
         )
         teacher = teacher.scalar_one_or_none()
         return True if teacher else False
+
+
+
+
+
